@@ -45,7 +45,7 @@ Logging & Monitoring :  Python `logging` + health log DB table
 ##  Installation
 
 
-git clone https://github.com/YOUR_USERNAME/ota-localizer.git
+git clone git clone https://github.com/Priyachakraborty-hash/ota-localizer.git
 cd ota-localizer
 pip install -r requirements.txt
 python app.py
