@@ -1,6 +1,6 @@
 #  OTA Release Notes Localizer
 
-A Python automation tool that tracks software release notes from GitHub and translates them into 10+ languages, exports them in **XLIFF format** for professional localization workflows, and serves everything via a REST API — with built-in health monitoring.
+A Python automation tool that tracks software release notes from GitHub and translates them into 10+ languages, exports them in **XLIFF format** for professional localization workflows, and serves everything via a REST API and with built-in health monitoring.
 
 > Built to demonstrate automation, i18n (internationalization), REST APIs, database management, and localization workflows.
 
@@ -9,11 +9,7 @@ A Python automation tool that tracks software release notes from GitHub and tran
 #  The Problem It Solves
 
 Software teams ship updates globally but release notes are often only in English. This tool automates the full pipeline:
-
-
 GitHub Releases → Fetch → Translate → Store → Export (XLIFF) → Serve via API
-
-
 
 
 ## Tech Stack
