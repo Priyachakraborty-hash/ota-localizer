@@ -53,8 +53,8 @@ python app.py
 
 # API Endpoints
 
- Method, Endpoint, Description 
-
+| Method | Endpoint | Description |
+|--------|----------|-------------|
 | GET | `/` | Project info |
 | POST | `/fetch` | Fetch & store releases from a GitHub repo |
 | GET | `/localize?repo=microsoft/vscode&lang=fr` | Fetch + translate releases |
@@ -113,14 +113,16 @@ curl "http://localhost:5000/validate/xliff?lang=ja"
 #  Project Structure
 
 
+```
 ota-localizer/
 ├── app.py            # Flask REST API
 ├── fetcher.py        # GitHub API release fetcher
 ├── translator.py     # i18n translation module
 ├── xliff_handler.py  # XLIFF export, parse & validation
 ├── database.py       # SQLite layer + health logging
-├── requirements.txt
-└── README.md
+├── requirements.txt  # Dependencies
+└── README.md         # Project documentation
+```
 
 
 ---
