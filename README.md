@@ -1,4 +1,4 @@
-  OTA Release Notes Localizer
+  OTA Release Notes Localizer project 
 
 A Python automation tool that tracks software release notes from GitHub and translates them into 10+ languages, exports them in XLIFF format for professional localization workflows, and serves everything via a REST API and with built in health monitoring.
 
